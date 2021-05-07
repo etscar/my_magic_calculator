@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evan's Magic Calculator: For When All Else Fails</title>
+
+</head>
+<body style="background-color:Lavender">
+    <h1 style="font-family:Arial; color:purple;">Math Magic Awaits</h1>
+    <!-- The  below form sends the POST method to the app to run with the inputs provided -->
+    <form action="/send" method="POST" style="padding-bottom: 12px;">
+        <!-- This sends the text input to the num1 variable for processing-->
+        <label for="First Number">First Number Incantation:</label>
+        <input type="text" placeholder="Abrakadabra!" name="num1"/>
+        <br/>
+
+        <!-- This sends the text input to the num2 variable for processing-->
+        <label for="Second Number">Second Number Incantation:</label>
+        <input type="text" placeholder="Alakazam!" name="num2"/>
+        <br/>
+
+        <!-- This tells Python which operation to run -->
+        <label for="Operation">Spell to Cast:</label>
+        <select name="operation">
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+            <option value="exponent">Exponent</option>
+        </select>
+
+        <!-- This codes the submit button, which resolves the operation and displays the answer -->
+        <input type="submit" value="Resolve Spell" id="calc_btn"/>
+        <br/>
+        <div style="font-size:xx-large; color:purple; padding-top:12px"> {{sum}} </div>
+
+        <br/>
+
+        <!-- This embeds and image which I find hilarious, though mileage may vary -->
+        <img src="https://static.abcteach.com/free_preview/m/mathwizardrgb_p.png"/>
+
+    </form>
+
+</body>
+</html>
