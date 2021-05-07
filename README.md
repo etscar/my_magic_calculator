@@ -2,7 +2,9 @@
 # A Basic Calculator Web App coded in Python
 
 Author: Evan Scarborough
+
 Course: CSC227 Cloud Application Development
+
 Version: 1.0
 
 
