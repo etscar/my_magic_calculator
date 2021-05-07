@@ -1,5 +1,5 @@
-# my_magic_calculator
-A  basic calculator web app
+# My Magic Calculator:
+A Basic Calculator Web App coded in Python
 
 Author: Evan Scarborough
 Course: CSC227 Cloud Application Development
