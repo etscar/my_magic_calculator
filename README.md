@@ -8,6 +8,8 @@ Course: CSC227 Cloud Application Development
 Version: 1.0
 
 
+
+
 This web app will be hosted on OpenShift's CodeRead Containers for my CSC227 Final Project.
 
 It utilizes Flask, a micro web framework, to provide web interaction. 
