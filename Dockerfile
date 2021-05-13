@@ -1,4 +1,4 @@
-From python:3.8
+From alpine:latest
 RUN apk add --no-cache py3-pip \
     && pip3 install --upgrade pip
 
