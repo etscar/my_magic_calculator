@@ -1,12 +1,12 @@
 From python:3.8
 
-WORKDIR /code
+WORKDIR /app
 
-COPY requirements.txt
+COPY . /app
 
 RUN pip install -r requirements.txt
 
-COPY src/
+EXPOSE 5000
 
 ENTRYPOINT ["python3"]
 CMD ["app.py"]
